@@ -1,0 +1,211 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+
+body {
+  background-color: #f4e6de;
+  justify-content: center;
+  display: flex;
+}
+
+.container {
+  width: 45vw;
+  height: 35vw;
+  background-color: white;
+  margin-top: 15vw;
+  border-radius: 10px;
+}
+
+.img-container {
+  display: flex;
+}
+
+.img-container img {
+  width: auto;
+  height: 35vw;
+}
+
+h3 {
+  color: grey;
+  margin-left: 3vw;
+  letter-spacing: 6px;
+  margin-top: 3vw;
+}
+
+h2 {
+  font-size: 3vw;
+  margin-top: 1vw;
+  margin-left: 3vw;
+}
+
+p {
+  margin-left: 3vw;
+  font-size: 1.2vw;
+  font-family: "Gowun Batang", serif;
+}
+
+.price {
+  margin-left: 3vw;
+  font-size: 2vw;
+  color: rgb(50, 102, 89);
+  font-weight: bold;
+  font-family: "Merriweather", serif;
+}
+
+button {
+  font-size: 1vw;
+  margin-left: 3vw;
+  background-color: rgb(3, 122, 92);
+  color: white;
+  margin-top: 1vw;
+  padding: 20px;
+  max-width: 20vw;
+  letter-spacing: 3px;
+  border-radius: 10px;
+  border-color: white;
+  font-weight: bold;
+} */
+
+
+@import url("https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+
+body {
+    background-color: #f4e6de;
+    justify-content: center;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 45vw;
+    height: 35vw;
+    background-color: white;
+    margin-top: 15vw;
+    border-radius: 10px;
+}
+
+.img-container {
+    display: flex;
+}
+
+.img-container img {
+    width: auto;
+    height: 35vw;
+}
+
+h3 {
+    color: grey;
+    margin-left: 3vw;
+    letter-spacing: 6px;
+    margin-top: 3vw;
+}
+
+h2 {
+    font-size: 3vw;
+    margin-top: 1vw;
+    margin-left: 3vw;
+}
+
+p {
+    margin-left: 3vw;
+    font-size: 1.2vw;
+    font-family: "Gowun Batang", serif;
+}
+
+.price {
+    margin-left: 3vw;
+    font-size: 2vw;
+    color: rgb(50, 102, 89);
+    font-weight: bold;
+    font-family: "Merriweather", serif;
+}
+
+button {
+    font-size: 1vw;
+    margin-left: 3vw;
+    background-color: rgb(3, 122, 92);
+    color: white;
+    margin-top: 1vw;
+    padding: 20px;
+    max-width: 20vw;
+    letter-spacing: 3px;
+    border-radius: 10px;
+    border-color: white;
+    font-weight: bold;
+}
+
+.original-price {
+    color: grey;
+    font-size: 1vw;
+    margin-left: 1vw;
+    text-decoration: line-through;
+}
+
+.button-text {
+    margin-left: 3vw;
+    margin-right: 3vw;
+}
+
+/* Media query for mobile view */
+@media screen and (max-width: 768px) {
+    .container {
+        width: 90vw;
+        height: auto;
+        margin-top: 5vw;
+        border-radius: 10px;
+    }
+
+    .img-container {
+        flex-direction: column;
+    }
+
+    .img-container img {
+        width: 100%;
+        height: auto;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+
+    }
+
+    h3 {
+        margin-left: 5vw;
+        margin-top: 5vw;
+        font-size: 4vw;
+    }
+
+    h2 {
+        font-size: 10vw;
+        margin-left: 5vw;
+    }
+
+    p {
+        margin-left: 5vw;
+        font-size: 6vw;
+    }
+
+    .price {
+        margin-left: 5vw;
+        font-size: 8vw;
+    }
+
+    .original-price {
+        font-size: 4vw;
+        font-weight: bolder;
+    }
+
+    button {
+        margin-left: 5vw;
+        font-size: 4vw;
+        padding: 15px;
+        max-width: 90%;
+        margin-top: 5vw;
+    }
+
+    .button-text {
+        font-size: 4vw;
+        margin-left: 18vw;
+        margin-right: 18vw;
+    }
+}
